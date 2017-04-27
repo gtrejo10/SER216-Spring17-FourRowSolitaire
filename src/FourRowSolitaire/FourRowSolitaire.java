@@ -34,7 +34,7 @@ public class FourRowSolitaire extends SolitaireBoard implements ActionListener
 
     private JMenuItem help = new JMenuItem("View Help");
     private JMenuItem about = new JMenuItem("About Game");
-    private JMenuItem checkUpdate = new JMenuItem("Check for Updates");
+    private JMenuItem checkUpdate = new JMenuItem("Check for Updates"); 
 
     public FourRowSolitaire()
     {
