@@ -32,7 +32,7 @@ public class SolitaireLayout implements LayoutManager
     private Component colOne;
     private Component colTwo;
     private Component colThree;
-    private Component colFour;
+    private Component colFour; 
 
     private Component aceSpades;
     private Component aceClubs;
