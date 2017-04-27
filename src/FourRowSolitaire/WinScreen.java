@@ -35,7 +35,7 @@ public class WinScreen extends JFrame
         {
             setSize(200,200);
             sound = new SoundThread();
-            sound.run();
+            sound.run(); 
         }
 
         if(animation == 1)
