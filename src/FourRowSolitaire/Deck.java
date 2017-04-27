@@ -2,7 +2,7 @@ package FourRowSolitaire;
 
 import java.util.LinkedList;
 import java.util.Random;
-
+ 
 /**
  * Class: Deck
  *
