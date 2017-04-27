@@ -34,7 +34,7 @@ public class FireworksDisplay extends JPanel implements ActionListener
     private Random random = new Random();
 
     public FireworksDisplay(int num, int size)
-    {
+    { 
         NUM_FIREWORKS = num;
         FIREWORKS_SIZE = size;
 
