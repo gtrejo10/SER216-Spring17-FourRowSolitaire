@@ -6,7 +6,7 @@ public class Column extends CardStack
 
     public Card push(Card card)
     {
-        if ((isEmpty()) && (card.getNumber() == 13))
+        if ((isEmpty()) && (card.getNumber() == 13)) //changed from CARD.KING to 13
         {
             super.push(card);
             return card;
@@ -23,7 +23,7 @@ public class Column extends CardStack
 
     public boolean isValidMove(Card card)
     {
-        if ((isEmpty()) && (card.getNumber() == 13))
+        if ((isEmpty()) && (card.getNumber() == 13)) //changed from CARD.KING to 13
         {
             return true;
         }
