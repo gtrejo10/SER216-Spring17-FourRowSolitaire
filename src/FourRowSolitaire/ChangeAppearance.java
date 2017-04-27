@@ -101,12 +101,12 @@ public class ChangeAppearance extends JDialog implements ActionListener
         buttonPanel.add(ok);
 
         cardBackLabel.setIcon(new ImageIcon(this.getClass().getResource
-                ("/images/cardbacks/cardback" + deckNumber + ".png")));
+                ("/images/cardbacks/cardback" + deckNumber + ".png"))); //added / before images
         JPanel cardBackViewer = new JPanel();
         cardBackViewer.add(cardBackLabel);
 
         backgroundLabel.setIcon(new ImageIcon(this.getClass().getResource
-                ("/images/backgrounds/background" + backgroundNumber + "small.jpg")));
+                ("/images/backgrounds/background" + backgroundNumber + "small.jpg"))); //added / before images
         JPanel backgroundViewer = new JPanel();
         backgroundViewer.add(backgroundLabel);
 
@@ -159,38 +159,38 @@ public class ChangeAppearance extends JDialog implements ActionListener
         {
             deckNumber = 1;
             cardBackLabel.setIcon(new ImageIcon(this.getClass().getResource
-                    ("/images/cardbacks/cardback" + deckNumber + ".png")));
+                    ("/images/cardbacks/cardback" + deckNumber + ".png"))); //added / before images
         }
         else if(e.getSource() == decks[1])
         {
             deckNumber = 2;
             cardBackLabel.setIcon(new ImageIcon(this.getClass().getResource
-                    ("/images/cardbacks/cardback" + deckNumber + ".png")));
+                    ("/images/cardbacks/cardback" + deckNumber + ".png"))); //added / before images
         }
         else if(e.getSource() == decks[2])
         {
             deckNumber = 3;
             cardBackLabel.setIcon(new ImageIcon(this.getClass().getResource
-                    ("/images/cardbacks/cardback" + deckNumber + ".png")));
+                    ("/images/cardbacks/cardback" + deckNumber + ".png"))); //added / before images
         }
 
         else if(e.getSource() == backgrounds[0])
         {
             backgroundNumber = 1;
             backgroundLabel.setIcon(new ImageIcon(this.getClass().getResource
-                ("/images/backgrounds/background" + backgroundNumber + "small.jpg")));
+                ("/images/backgrounds/background" + backgroundNumber + "small.jpg"))); //added / before images
         }
         else if(e.getSource() == backgrounds[1])
         {
             backgroundNumber = 2;
             backgroundLabel.setIcon(new ImageIcon(this.getClass().getResource
-                ("/images/backgrounds/background" + backgroundNumber + "small.jpg")));
+                ("/images/backgrounds/background" + backgroundNumber + "small.jpg"))); //added / before images
         }
         else if(e.getSource() == backgrounds[2])
         {
             backgroundNumber = 3;
             backgroundLabel.setIcon(new ImageIcon(this.getClass().getResource
-                ("/images/backgrounds/background" + backgroundNumber + "small.jpg")));
+                ("/images/backgrounds/background" + backgroundNumber + "small.jpg"))); //added / before images
         }
 
         else if(e.getSource() == ok)
