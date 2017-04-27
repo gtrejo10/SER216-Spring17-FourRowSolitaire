@@ -10,5 +10,5 @@ Modification Contributors:
   
   Updates:
     -GUI work
-    -Uodated logos
+    -Updated logos
     -Bug fixes
