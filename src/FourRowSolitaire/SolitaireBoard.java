@@ -36,7 +36,7 @@ public class SolitaireBoard extends JFrame
     private Column[] columns = new Column[4];
 
     //The deal and discard piles
-    private DiscardPile discardPile = new DiscardPile(drawCount);
+    private DiscardPile discardPile = new DiscardPile(drawCount); 
     private DealDeck dealDeck = new DealDeck(discardPile, drawCount);
 
     //The four ace piles (to stack Ace - King of a single suit)
