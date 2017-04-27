@@ -91,7 +91,7 @@ public class Card extends JComponent
 
         try
         {
-            URL imageURL = this.getClass().getResource(cardHighlighted);
+            URL imageURL = this.getClass().getResource(cardHighlighted); 
 
             if (imageURL != null)
             {
