@@ -34,7 +34,7 @@ public class SolitairePanel extends JPanel
         if (imageURL != null)
         {
             background = new ImageIcon(imageURL).getImage();
-        }
+        } 
 
         repaint();
     }
