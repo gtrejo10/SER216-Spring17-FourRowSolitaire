@@ -43,4 +43,4 @@ public class SingleCell extends CardStack
     {
         return false;
     }
-}
+} 
