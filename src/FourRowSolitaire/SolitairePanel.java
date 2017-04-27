@@ -17,7 +17,7 @@ public class SolitairePanel extends JPanel
 
     public SolitairePanel()
     {
-        URL imageURL = this.getClass().getResource("/images/backgrounds/background" + backgroundNumber + ".jpg");
+        URL imageURL = this.getClass().getResource("/images/backgrounds/background" + backgroundNumber + ".jpg"); //added / before images
 
         if (imageURL != null)
         {
@@ -29,7 +29,7 @@ public class SolitairePanel extends JPanel
     {
         backgroundNumber = back;
         
-        URL imageURL = this.getClass().getResource("/images/backgrounds/background" + back + ".jpg");
+        URL imageURL = this.getClass().getResource("/images/backgrounds/background" + back + ".jpg"); //added / before images
 
         if (imageURL != null)
         {
