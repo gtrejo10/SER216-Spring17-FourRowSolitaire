@@ -29,7 +29,7 @@ public class ChangeOptions extends JDialog implements ActionListener
     private int difficulty = 2; //1 = easy, 2 = medium, 3 = hard
 
     private JRadioButton easy = new JRadioButton("Easy");
-    private JRadioButton medium = new JRadioButton("Medium", true);
+    private JRadioButton medium = new JRadioButton("Medium", true); 
     private JRadioButton hard = new JRadioButton("Hard");
 
     private JButton ok = new JButton("Accept Options");
