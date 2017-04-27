@@ -192,7 +192,7 @@ public class CardStack
             if ((((Card)cards.get(i)).getColor() == ((Card)cards.get(i + 1)).getColor()) || (((Card)cards.get(i)).getNumber() != ((Card)cards.get(i + 1)).getNumber() + 1))
             {
 
-                return false;
+                return false; 
             }
         }
 
