@@ -35,7 +35,7 @@ public class ChangeAppearance extends JDialog implements ActionListener
 
     public ChangeAppearance(JFrame parent, int deckNumber, int backgroundNumber)
     {
-        setTitle("Change Appearance");
+        setTitle("Change Appearance"); 
         setSize(400,300);
         setDefaultCloseOperation(JDialog.HIDE_ON_CLOSE);
         setModalityType(JDialog.ModalityType.APPLICATION_MODAL);
