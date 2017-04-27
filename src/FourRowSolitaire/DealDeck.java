@@ -3,7 +3,7 @@ package FourRowSolitaire;
 
 import java.awt.Graphics;
 import java.awt.Image;
-import java.awt.Point;
+import java.awt.Point; 
 import java.util.LinkedList;
 import javax.swing.JOptionPane;
 
