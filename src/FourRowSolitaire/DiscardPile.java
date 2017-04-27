@@ -36,7 +36,7 @@ public class DiscardPile extends CardStack
         cardsLeftFromDraw = numViewableCards;
     }
 
-    public void addCard(Card card)
+    public void addCard(Card card) 
     {
         cardsLeftFromDraw++;
         super.addCard(card);
